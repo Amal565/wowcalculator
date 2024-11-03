@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOW Calculator</title>
+    <link rel="icon" href="https://img.freepik.com/free-vector/calculator-floating-cartoon-vector-icon-illustration-finance-business-icon-isolated-flat-vector_138676-12878.jpg" type="image/icon type">
+<link rel="stylesheet" href="style.css">
+<script src="engine.js"></script>
+   
+</head>
+<body>
+    <div class="calculator">
+        <h2>WOW CALCULATOR</h2>
+        <input id="result" readonly>
+        <div class="buttons">
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('')"></button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="onEqualsPress()">=</button>
+            <button onclick="appendToDisplay('/')">/</button>
+        </div>
+    </div>
+
+    <!-- Challenge Popup -->
+    <div id="popupOverlay"></div>
+    <div id="challengePopup">
+        <h3>Solve this to continue:</h3>
+        <p id="challengeText"></p>
+        <input id="challengeAnswer" type="text" placeholder="Your answer">
+        <button onclick="checkChallengeAnswer()">Submit</button>
+    </div>
+
+  
+</body>
+</html>

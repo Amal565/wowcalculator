@@ -1,0 +1,87 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/7836436.png'); /* Default image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s, background-image 0.3s;
+}
+
+/* Basic styling for the calculator */
+.calculator {
+    width: 250px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 15px solid #333;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(105, 99, 99, 0.8); /* Semi-transparent background for visibility */
+    transition: border 0.3s;
+}
+
+#result {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: right;
+    transition: color 0.3s;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border: 20px;
+}
+
+.buttons button {
+    padding: 15px;
+    font-size: 18px;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+/* Popup styling */
+#challengePopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+}
+
+#popupOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 500;
+}
+
+/* Glowing effect */
+.glow {
+    border: 2px solid red;
+    box-shadow: 0 0 10px red;
+}
+
+/* Dead text style */
+.dead {
+    color: red;
+    text-shadow: 0 0 10px red, 0 0 20px red;
+}
+h2{
+    color: rgb(43, 58, 226);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10rem;
+}
