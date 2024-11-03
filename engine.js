@@ -27,7 +27,7 @@ function onEqualsPress() {
     }
 
     if (result === 9) {
-        activateDeathMode(); // Activate death mode if result is 9
+        activateDeathMode(); 
     } else if (specialResults[result]) {
         activateSpecialFeature(result);
     } else if (result !== "Error") {
@@ -39,21 +39,21 @@ function activateDeathMode() {
     const display = document.getElementById("result");
     display.value = "DEAD";
     display.classList.add("dead");
-    document.body.style.backgroundColor = "rgba(0, 0, 0, 0.8)"; // Darken the background
+    document.body.style.backgroundColor = "black"; 
     const calculator = document.querySelector(".calculator");
-    calculator.classList.add("glow"); // Add glow effect to calculator
+    calculator.classList.add("glow"); 
     const keys = document.querySelectorAll(".buttons button");
-    keys.forEach(key => key.classList.add("glow")); // Add glow effect to keys
-    disableCalculator(); // Disable input after death mode
+    keys.forEach(key => key.classList.add("glow")); 
+    disableCalculator();
 }
 
 function activateSpecialFeature(result) {
     const display = document.getElementById("result");
     display.value = specialResults[result].name;
-    document.body.style.backgroundImage = specialResults[result].bgImage; // Set to the special background image
+    document.body.style.backgroundImage = specialResults[result].bgImage;
     const keys = document.querySelectorAll(".buttons button");
     keys.forEach(key => key.innerText = result);
-    setTimeout(resetCalculator, 10000); // Reset after 10 seconds
+    setTimeout(resetCalculator, 5000); 
 }
 
 function resetCalculator() {
@@ -63,14 +63,14 @@ function resetCalculator() {
         // Restore button text
         const originalValue = key.getAttribute("onclick").match(/'\d'|\+|-|\*|\//)[0];
         key.innerText = originalValue.replace(/'/g, '');
-        key.classList.remove("glow"); // Remove glow effect
+        key.classList.remove("glow"); 
     });
     document.body.style.backgroundImage = "url('https://wallpaperaccess.com/full/7836436.png')"; // Reset background image
-    document.body.style.backgroundColor = ""; // Reset background color
+    document.body.style.backgroundColor = ""; 
     const display = document.getElementById("result");
-    display.classList.remove("dead"); // Remove dead class
-    currentExpression = ""; // Reset the current expression
-    enableCalculator(); // Re-enable input
+    display.classList.remove("dead"); 
+    currentExpression = ""; 
+    enableCalculator();
 }
 
 function disableCalculator() {
@@ -80,7 +80,7 @@ function disableCalculator() {
 
 function enableCalculator() {
     const keys = document.querySelectorAll(".buttons button");
-    keys.forEach(key => key.disabled = false); // Re-enable all buttons
+    keys.forEach(key => key.disabled = false); 
 }
 
 function showChallengePopup(result) {
@@ -105,7 +105,7 @@ function checkChallengeAnswer() {
         display.value = "Incorrect answer!";
     }
 
-    // Hide the popup
+    
     popup.style.display = "none";
     overlay.style.display = "none";
     document.getElementById("challengeAnswer").value = "";
