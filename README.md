@@ -14,10 +14,10 @@
 ### Project Description
 [The Wow Calculator is a fun, unconventional calculator that turns simple calculations into engaging challenges, designed with hidden surprises and interactive elements. Unlike traditional calculators that instantly provide answers, the Wow Calculator encourages users to exercise their mental math skills by prompting them to manually input the answer into a popup. The calculator also includes unique Easter eggs that appear with specific results, enhancing the overall user experience.]
 
-### The Problem (that doesn't exist)
+### The Problem 
 [In today’s fast-paced world, people often rely on calculators to solve even basic math problems. This dependency reduces our mental agility and problem-solving skills over time. To combat this trend, Wow Calculator was designed to slow down the process, requiring users to calculate certain answers on their own and to be surprised by unexpected, humorous elements within the app. ]
 
-### The Solution (that nobody asked for)
+### The Solution 
 [While calculators are traditionally created for quick math solutions, the Wow Calculator adds a creative twist. It turns routine calculations into a mental exercise by requiring users to solve some problems themselves. Additionally, by incorporating playful Easter eggs, Wow Calculator engages users in a way that typical calculators do not. ]
 
 ## Technical Details
@@ -51,7 +51,7 @@ The calculator’s border and keys glow red.
 The result field shows "DEAD" in glowing red text.
 The calculator becomes unusable, providing a unique (and slightly eerie) experience.
 
-# Screenshots (Add at least 3)
+# Screenshots 
 [Scree![Screenshot (13)](https://github.com/user-attachments/assets/88f94788-35f3-4e7c-82e5-04ffefb26583)
 ](Initial View of the Calculator)
 it is the main page of calculator 
