@@ -1,6 +1,6 @@
 # wowcalculator
 
-# [wow calculator] 🧮
+# wow calculator 🧮
 
 
 ## Basic Details
