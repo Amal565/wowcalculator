@@ -1,9 +1,10 @@
-# wowcalculator
+
+<img width="1280" alt="379690167-35332e92-44cb-425b-9dff-27bcf1023c6c" src="https://github.com/user-attachments/assets/d7b312b6-1de3-41d9-aa91-82f039c2f961">
 
 # wow calculator 🧮
 
 
-## Basic Details
+
 ### Team Name: [zero]
 
 
@@ -32,7 +33,7 @@ Software: Visual Studio Code (as the main editor).
 Design Approach: Simple yet engaging, with hidden Easter eggs to surprise the user.
 
 
-### Project Documentation
+### calculator overview
 Key Features
 User-Initiated Calculation:
 
@@ -41,7 +42,7 @@ Easter Eggs:
 
 The calculator includes hidden surprises. When specific "special numbers" like 7, 10, or 369 are calculated, the calculator undergoes a temporary transformation:
 All keys turn into the special number.
-The result field displays the name of a famous personality, such as Cristiano Ronaldo for 7 or Albert Einstein for 369.
+The result field displays the name of a famous personality, such as Cristiano Ronaldo for 7 or Mammooty for 369.
 The background image changes to a custom picture, amplifying the experience.
 "Death Mode":
 
@@ -60,14 +61,14 @@ it is the main page of calculator
 ](User Calculation Challenge )
 but here a slight change user must calculate the result and type inthe popup box after that if the answer was correct it shows the same answer else incorrect
 
-[[Screenshot (15)](https://github.com/user-attachments/assets/2b72c7de-422f-4ad5-ae7f-3166d8030f1f)
+[[Screenshot (15)]()
 shot3](Easter Egg Activation)
 When certain numbers are calculated, an Easter egg is triggered, turning all buttons into that number and displaying a special message.
 
 
 
 
-![Build](Add photos of build process here)
+![Build]
 Design Phase:
 
 The design started with a basic calculator layout. Unique features were conceptualized to add an element of surprise and make math fun again.
