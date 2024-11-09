@@ -53,15 +53,16 @@ The result field shows "DEAD" in glowing red text.
 The calculator becomes unusable, providing a unique (and slightly eerie) experience.
 
 # Screenshots 
-[Scree![Screenshot (13)](https://github.com/user-attachments/assets/88f94788-35f3-4e7c-82e5-04ffefb26583)
+[calculator interface[Screenshot (13)](https://github.com/user-attachments/assets/88f94788-35f3-4e7c-82e5-04ffefb26583)
 ](Initial View of the Calculator)
 it is the main page of calculator 
 
-![Scree![Screenshot (14)](https://github.com/user-attachments/assets/6ac97f09-af10-4ca5-9016-6d2fdfc08471)
+![user initiated calculation[Screenshot (14)](https://github.com/user-attachments/assets/6ac97f09-af10-4ca5-9016-6d2fdfc08471)
 ](User Calculation Challenge )
 but here a slight change user must calculate the result and type inthe popup box after that if the answer was correct it shows the same answer else incorrect
 
-[[Screenshot (15)]()
+easter eggs[Screenshot (15)](https://github.com/user-attachments/assets/d4291b2c-2740-461e-af87-783f9c921b99)
+()
 shot3](Easter Egg Activation)
 When certain numbers are calculated, an Easter egg is triggered, turning all buttons into that number and displaying a special message.
 
@@ -84,7 +85,7 @@ Tweaked the display and interactive elements for the best user experience.
 Final Prototype:
 
 ![F![Screenshot (13)](https://github.com/user-attachments/assets/c0186a8d-4506-4d8f-ab5c-cce23c5fa77d)
-inal](Add photo of final product here)
+inal]
 Reflection & Future Improvements
 The Wow Calculator has successfully transformed routine calculations into engaging challenges, with the addition of quirky Easter eggs. For future versions, more surprises could be added, such as interactive animations and customizable themes. This project demonstrates that even simple tools can become enjoyable, making math a bit more interesting and engaging.
 
@@ -93,12 +94,12 @@ The Wow Calculator has successfully transformed routine calculations into engagi
 ### Project Demo
 # Video
 [Add your demo video link here]
-*Explain what the video demonstrates*
+
 
 # Additional Demos
-[Add any extra demo materials/links]
+#use the calculator
+(https://amal565.github.io/wowcalculator/)
 
 ## Team Contributions
-- [Amal ss]: []
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+individual - amal ss [Government engneering college kozhikode]
+hope you enjoy it
